@@ -1,0 +1,530 @@
+/* Design Tokens — Generated from Figma */
+:root {
+
+  /* ==========================================
+     1. PRIMITIVES — Global Tokens
+     ========================================== */
+
+  /* 1.1 Colors */
+
+  /* Brand Primary */
+  --color-brand-primary-light: #FBDE7B;
+  --color-brand-primary-light-hover: #FBD965;
+  --color-brand-primary-light-active: #FAD34F;
+  --color-brand-primary-default: #F9C823;
+  --color-brand-primary-default-hover: #E5B820;
+  --color-brand-primary-default-active: #D4AA1E;
+  --color-brand-primary-dark: #BB961A;
+  --color-brand-primary-dark-hover: #A28217;
+  --color-brand-primary-dark-active: #896E13;
+  --color-brand-primary-darker: #705A10;
+
+  /* Brand Secondary */
+  --color-brand-secondary-light: #FD96A8;
+  --color-brand-secondary-light-hover: #FD859A;
+  --color-brand-secondary-light-active: #FD738B;
+  --color-brand-secondary-default: #FC506E;
+  --color-brand-secondary-default-hover: #E84A65;
+  --color-brand-secondary-default-active: #D6445E;
+  --color-brand-secondary-dark: #BD3C53;
+  --color-brand-secondary-dark-hover: #A43448;
+  --color-brand-secondary-dark-active: #8B2C3D;
+  --color-brand-secondary-darker: #712431;
+
+  /* Status Success */
+  --color-status-success-light: #6EBFB8;
+  --color-status-success-light-hover: #56B4AC;
+  --color-status-success-light-active: #3DA9A0;
+  --color-status-success-default: #0D9488;
+  --color-status-success-default-hover: #0C887D;
+  --color-status-success-default-active: #0B7E74;
+  --color-status-success-dark: #0A6F66;
+  --color-status-success-dark-hover: #086058;
+  --color-status-success-dark-active: #07514B;
+  --color-status-success-darker: #06433D;
+
+  /* Status Pending */
+  --color-status-pending-light: #FEEC91;
+  --color-status-pending-light-hover: #FEE97E;
+  --color-status-pending-light-active: #FDE66C;
+  --color-status-pending-default: #FDE047;
+  --color-status-pending-default-hover: #E9CE41;
+  --color-status-pending-default-active: #D7BE3C;
+  --color-status-pending-dark: #BEA835;
+  --color-status-pending-dark-hover: #A4922E;
+  --color-status-pending-dark-active: #8B7B27;
+  --color-status-pending-darker: #726520;
+
+  /* Status Warning */
+  --color-status-warning-light: #DA8D6D;
+  --color-status-warning-light-hover: #D47A55;
+  --color-status-warning-light-active: #CE673D;
+  --color-status-warning-default: #C2410C;
+  --color-status-warning-default-hover: #B23C0B;
+  --color-status-warning-default-active: #A5370A;
+  --color-status-warning-dark: #923109;
+  --color-status-warning-dark-hover: #7E2A08;
+  --color-status-warning-dark-active: #6B2407;
+  --color-status-warning-darker: #571D05;
+
+  /* Status Error */
+  --color-status-error-light: #F58F8F;
+  --color-status-error-light-hover: #F47C7C;
+  --color-status-error-light-active: #F26969;
+  --color-status-error-default: #EF4444;
+  --color-status-error-default-hover: #DC3F3F;
+  --color-status-error-default-active: #CB3A3A;
+  --color-status-error-dark: #B33333;
+  --color-status-error-dark-hover: #9B2C2C;
+  --color-status-error-dark-active: #832525;
+  --color-status-error-darker: #6C1F1F;
+
+  /* Neutrals Light */
+  --color-neutrals-light-background: #F8F7F4;
+  --color-neutrals-light-surface: #FFFFFF;
+  --color-neutrals-light-borders: #E7E6E4;
+  --color-neutrals-light-dividers: #F3F3F1;
+  --color-neutrals-light-hover: #F3F3F1;
+  --color-neutrals-light-black: #0B0B0C;
+  --color-neutrals-light-textgray: #B1B1B1;
+
+  /* Neutrals Dark */
+  --color-neutrals-dark-background: #0D0C0B;
+  --color-neutrals-dark-surface: #181714;
+  --color-neutrals-dark-borders: #25231F;
+  --color-neutrals-dark-dividers: #1F1E1A;
+  --color-neutrals-dark-hover: #21201C;
+  --color-neutrals-dark-white: #FFFFFF;
+  --color-neutrals-dark-textgray: #6B6B6B;
+
+  /* 1.2 Typography */
+  --typo-font-family-primary: "Cairo";
+  --typo-font-family-secondary: "SF Pro";
+
+  /* Display Large */
+  --typo-font-size-display-lg: 48px;
+  --typo-line-height-display-lg: 56px;
+  --typo-letter-spacing-display-lg: 0px;
+  --typo-font-weight-display-lg: 500;
+
+  /* Display Medium */
+  --typo-font-size-display-md: 44px;
+  --typo-line-height-display-md: 52px;
+  --typo-letter-spacing-display-md: 0px;
+  --typo-font-weight-display-md: 600;
+
+  /* Display Small */
+  --typo-font-size-display-sm: 32px;
+  --typo-line-height-display-sm: 40px;
+  --typo-letter-spacing-display-sm: 0px;
+  --typo-font-weight-display-sm: 500;
+
+  /* H1 */
+  --typo-font-size-h1: 31px;
+  --typo-line-height-h1: 47px;
+  --typo-letter-spacing-h1: 0px;
+  --typo-font-weight-h1: 400;
+
+  /* H2 */
+  --typo-font-size-h2: 24px;
+  --typo-line-height-h2: 32px;
+  --typo-letter-spacing-h2: 0px;
+  --typo-font-weight-h2: 400;
+
+  /* H3 */
+  --typo-font-size-h3: 20px;
+  --typo-line-height-h3: 28px;
+  --typo-letter-spacing-h3: 0px;
+  --typo-font-weight-h3: 400;
+
+  /* H4 */
+  --typo-font-size-h4: 18px;
+  --typo-line-height-h4: 28px;
+  --typo-letter-spacing-h4: 0px;
+  --typo-font-weight-h4: 400;
+
+  /* Body Large */
+  --typo-font-size-body-lg: 16px;
+  --typo-line-height-body-lg: 24px;
+  --typo-letter-spacing-body-lg: 0px;
+  --typo-font-weight-body-lg: 400;
+
+  /* Body Regular */
+  --typo-font-size-body: 14px;
+  --typo-line-height-body: 24px;
+  --typo-letter-spacing-body: 0px;
+  --typo-font-weight-body: 400;
+
+  /* Body Small */
+  --typo-font-size-body-sm: 12px;
+  --typo-line-height-body-sm: 20px;
+  --typo-letter-spacing-body-sm: 0px;
+  --typo-font-weight-body-sm: 400;
+
+  /* Button Text */
+  --typo-font-size-button: 16px;
+  --typo-line-height-button: 24px;
+  --typo-letter-spacing-button: 0px;
+  --typo-font-weight-button: 400;
+
+  /* Input Label */
+  --typo-font-size-label: 14px;
+  --typo-line-height-label: 24px;
+  --typo-letter-spacing-label: 0px;
+  --typo-font-weight-label: 400;
+
+  /* Caption / Footnote */
+  --typo-font-size-caption: 10px;
+  --typo-line-height-caption: 24px;
+  --typo-letter-spacing-caption: 0px;
+  --typo-font-weight-caption: 400;
+
+  /* 1.3 Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 24px;
+  --space-3xl: 28px;
+  --space-4xl: 32px;
+  --space-5xl: 36px;
+  --space-6xl: 40px;
+  --space-7xl: 44px;
+  --space-8xl: 48px;
+
+  /* 1.4 Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-3xl: 32px;
+
+  /* 1.5 Width / Size */
+  --width-xs: 100px;
+  --width-sm: 300px;
+  --width-md: 500px;
+  --width-lg: 900px;
+  --width-xl: 1198px;
+  --width-2xl: 1350px;
+  --width-full: 1400px;
+
+  /* 1.6 Border */
+  --border-thin: 1px;
+  --border-medium: 1.5px;
+  --border-thick: 2px;
+
+  /* 1.7 Elevation */
+  --shadow-sm: 3px 3px 28px 1px rgba(11, 11, 12, 0.05);
+  --shadow-md: 1px 4px 36px 6px rgba(11, 11, 12, 0.07);
+  --shadow-lg: 4px 7px 39px 3px rgba(11, 11, 12, 0.09);
+
+  /* 1.8 Opacity */
+  --opacity-disabled: 0.38;
+  --opacity-hover: 0.08;
+  --opacity-active: 0.12;
+  --opacity-selected: 0.16;
+
+  /* 1.9 Motion */
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+  --easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --easing-decelerate: cubic-bezier(0.05, 0.7, 0.1, 1);
+  --easing-accelerate: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --easing-emphasized: cubic-bezier(0.2, 0, 0, 1);
+
+  /* 1.10 Z-Index */
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1020;
+  --z-index-modal: 2000;
+  --z-index-toast: 3000;
+  --z-index-tooltip: 4000;
+
+  /* ==========================================
+     2. SEMANTIC — Light Mode
+     ========================================== */
+
+  /* 2.1 Color Semantics */
+
+  /* Brand Primary */
+  --brand-primary-subtle: var(--color-brand-primary-light);
+  --brand-primary-subtle-hover: var(--color-brand-primary-light-hover);
+  --brand-primary-subtle-active: var(--color-brand-primary-light-active);
+  --brand-primary-default: var(--color-brand-primary-default);
+  --brand-primary-default-hover: var(--color-brand-primary-default-hover);
+  --brand-primary-default-active: var(--color-brand-primary-default-active);
+  --brand-primary-emphasis: var(--color-brand-primary-dark);
+  --brand-primary-emphasis-hover: var(--color-brand-primary-dark-hover);
+  --brand-primary-emphasis-active: var(--color-brand-primary-dark-active);
+  --brand-primary-strong: var(--color-brand-primary-darker);
+
+  /* Brand Secondary */
+  --brand-secondary-subtle: var(--color-brand-secondary-light);
+  --brand-secondary-subtle-hover: var(--color-brand-secondary-light-hover);
+  --brand-secondary-subtle-active: var(--color-brand-secondary-light-active);
+  --brand-secondary-default: var(--color-brand-secondary-default);
+  --brand-secondary-default-hover: var(--color-brand-secondary-default-hover);
+  --brand-secondary-default-active: var(--color-brand-secondary-default-active);
+  --brand-secondary-emphasis: var(--color-brand-secondary-dark);
+  --brand-secondary-emphasis-hover: var(--color-brand-secondary-dark-hover);
+  --brand-secondary-emphasis-active: var(--color-brand-secondary-dark-active);
+  --brand-secondary-strong: var(--color-brand-secondary-darker);
+
+  /* Status Success */
+  --status-success-subtle: var(--color-status-success-light);
+  --status-success-subtle-hover: var(--color-status-success-light-hover);
+  --status-success-subtle-active: var(--color-status-success-light-active);
+  --status-success-default: var(--color-status-success-default);
+  --status-success-default-hover: var(--color-status-success-default-hover);
+  --status-success-default-active: var(--color-status-success-default-active);
+  --status-success-emphasis: var(--color-status-success-dark);
+  --status-success-emphasis-hover: var(--color-status-success-dark-hover);
+  --status-success-emphasis-active: var(--color-status-success-dark-active);
+  --status-success-strong: var(--color-status-success-darker);
+
+  /* Status Pending */
+  --status-pending-subtle: var(--color-status-pending-light);
+  --status-pending-subtle-hover: var(--color-status-pending-light-hover);
+  --status-pending-subtle-active: var(--color-status-pending-light-active);
+  --status-pending-default: var(--color-status-pending-default);
+  --status-pending-default-hover: var(--color-status-pending-default-hover);
+  --status-pending-default-active: var(--color-status-pending-default-active);
+  --status-pending-emphasis: var(--color-status-pending-dark);
+  --status-pending-emphasis-hover: var(--color-status-pending-dark-hover);
+  --status-pending-emphasis-active: var(--color-status-pending-dark-active);
+  --status-pending-strong: var(--color-status-pending-darker);
+
+  /* Status Warning */
+  --status-warning-subtle: var(--color-status-warning-light);
+  --status-warning-subtle-hover: var(--color-status-warning-light-hover);
+  --status-warning-subtle-active: var(--color-status-warning-light-active);
+  --status-warning-default: var(--color-status-warning-default);
+  --status-warning-default-hover: var(--color-status-warning-default-hover);
+  --status-warning-default-active: var(--color-status-warning-default-active);
+  --status-warning-emphasis: var(--color-status-warning-dark);
+  --status-warning-emphasis-hover: var(--color-status-warning-dark-hover);
+  --status-warning-emphasis-active: var(--color-status-warning-dark-active);
+  --status-warning-strong: var(--color-status-warning-darker);
+
+  /* Status Error */
+  --status-error-subtle: var(--color-status-error-light);
+  --status-error-subtle-hover: var(--color-status-error-light-hover);
+  --status-error-subtle-active: var(--color-status-error-light-active);
+  --status-error-default: var(--color-status-error-default);
+  --status-error-default-hover: var(--color-status-error-default-hover);
+  --status-error-default-active: var(--color-status-error-default-active);
+  --status-error-emphasis: var(--color-status-error-dark);
+  --status-error-emphasis-hover: var(--color-status-error-dark-hover);
+  --status-error-emphasis-active: var(--color-status-error-dark-active);
+  --status-error-strong: var(--color-status-error-darker);
+
+  /* Neutrals */
+  --background: var(--color-neutrals-light-background);
+  --surface: var(--color-neutrals-light-surface);
+  --border: var(--color-neutrals-light-borders);
+  --divider: var(--color-neutrals-light-dividers);
+  --hover: var(--color-neutrals-light-hover);
+  --text-primary: var(--color-neutrals-light-black);
+  --text-secondary: var(--color-neutrals-light-textgray);
+
+  /* 2.2 Typography Semantics */
+
+  /* display-lg */
+  --text-display-lg-font-family: "Cairo";
+  --text-display-lg-font-size: var(--typo-font-size-display-lg);
+  --text-display-lg-line-height: var(--typo-line-height-display-lg);
+  --text-display-lg-font-weight: var(--typo-font-weight-display-lg);
+  --text-display-lg-letter-spacing: var(--typo-letter-spacing-display-lg);
+
+  /* display-md */
+  --text-display-md-font-family: "Cairo";
+  --text-display-md-font-size: var(--typo-font-size-display-md);
+  --text-display-md-line-height: var(--typo-line-height-display-md);
+  --text-display-md-font-weight: var(--typo-font-weight-display-md);
+  --text-display-md-letter-spacing: var(--typo-letter-spacing-display-md);
+
+  /* display-sm */
+  --text-display-sm-font-family: "Cairo";
+  --text-display-sm-font-size: var(--typo-font-size-display-sm);
+  --text-display-sm-line-height: var(--typo-line-height-display-sm);
+  --text-display-sm-font-weight: var(--typo-font-weight-display-sm);
+  --text-display-sm-letter-spacing: var(--typo-letter-spacing-display-sm);
+
+  /* h1 */
+  --text-h1-font-family: "Cairo";
+  --text-h1-font-size: var(--typo-font-size-h1);
+  --text-h1-line-height: var(--typo-line-height-h1);
+  --text-h1-font-weight: var(--typo-font-weight-h1);
+  --text-h1-letter-spacing: var(--typo-letter-spacing-h1);
+
+  /* h2 */
+  --text-h2-font-family: "Cairo";
+  --text-h2-font-size: var(--typo-font-size-h2);
+  --text-h2-line-height: var(--typo-line-height-h2);
+  --text-h2-font-weight: var(--typo-font-weight-h2);
+  --text-h2-letter-spacing: var(--typo-letter-spacing-h2);
+
+  /* h3 */
+  --text-h3-font-family: "Cairo";
+  --text-h3-font-size: var(--typo-font-size-h3);
+  --text-h3-line-height: var(--typo-line-height-h3);
+  --text-h3-font-weight: var(--typo-font-weight-h3);
+  --text-h3-letter-spacing: var(--typo-letter-spacing-h3);
+
+  /* h4 */
+  --text-h4-font-family: "Cairo";
+  --text-h4-font-size: var(--typo-font-size-h4);
+  --text-h4-line-height: var(--typo-line-height-h4);
+  --text-h4-font-weight: var(--typo-font-weight-h4);
+  --text-h4-letter-spacing: var(--typo-letter-spacing-h4);
+
+  /* body-lg */
+  --text-body-lg-font-family: "SF Pro";
+  --text-body-lg-font-size: var(--typo-font-size-body-lg);
+  --text-body-lg-line-height: var(--typo-line-height-body-lg);
+  --text-body-lg-font-weight: var(--typo-font-weight-body-lg);
+  --text-body-lg-letter-spacing: var(--typo-letter-spacing-body-lg);
+
+  /* body */
+  --text-body-font-family: "SF Pro";
+  --text-body-font-size: var(--typo-font-size-body);
+  --text-body-line-height: var(--typo-line-height-body);
+  --text-body-font-weight: var(--typo-font-weight-body);
+  --text-body-letter-spacing: var(--typo-letter-spacing-body);
+
+  /* body-sm */
+  --text-body-sm-font-family: "SF Pro";
+  --text-body-sm-font-size: var(--typo-font-size-body-sm);
+  --text-body-sm-line-height: var(--typo-line-height-body-sm);
+  --text-body-sm-font-weight: var(--typo-font-weight-body-sm);
+  --text-body-sm-letter-spacing: var(--typo-letter-spacing-body-sm);
+
+  /* button */
+  --text-button-font-family: "SF Pro";
+  --text-button-font-size: var(--typo-font-size-button);
+  --text-button-line-height: var(--typo-line-height-button);
+  --text-button-font-weight: var(--typo-font-weight-button);
+  --text-button-letter-spacing: var(--typo-letter-spacing-button);
+
+  /* label */
+  --text-label-font-family: "SF Pro";
+  --text-label-font-size: var(--typo-font-size-label);
+  --text-label-line-height: var(--typo-line-height-label);
+  --text-label-font-weight: var(--typo-font-weight-label);
+  --text-label-letter-spacing: var(--typo-letter-spacing-label);
+
+  /* caption */
+  --text-caption-font-family: "SF Pro";
+  --text-caption-font-size: var(--typo-font-size-caption);
+  --text-caption-line-height: var(--typo-line-height-caption);
+  --text-caption-font-weight: var(--typo-font-weight-caption);
+  --text-caption-letter-spacing: var(--typo-letter-spacing-caption);
+
+  /* 2.3 Layout Semantics */
+  --gap-xs: var(--space-xs);
+  --gap-sm: var(--space-sm);
+  --gap-md: var(--space-md);
+  --gap-lg: var(--space-lg);
+  --gap-xl: var(--space-xl);
+  --container-xs: var(--width-xs);
+  --container-sm: var(--width-sm);
+  --container-md: var(--width-md);
+  --container-lg: var(--width-lg);
+  --container-xl: var(--width-xl);
+  --border-subtle: var(--border-thin);
+  --border-default: var(--border-medium);
+  --border-strong: var(--border-thick);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+}
+
+[data-theme="dark"] {
+  /* ==========================================
+     3. SEMANTIC DARK OVERRIDES
+     ========================================== */
+
+  /* Brand Primary Dark */
+  --brand-primary-subtle: var(--color-brand-primary-dark);
+  --brand-primary-subtle-hover: var(--color-brand-primary-dark-hover);
+  --brand-primary-subtle-active: var(--color-brand-primary-dark-active);
+  --brand-primary-default: var(--color-brand-primary-default);
+  --brand-primary-default-hover: var(--color-brand-primary-default-hover);
+  --brand-primary-default-active: var(--color-brand-primary-default-active);
+  --brand-primary-emphasis: var(--color-brand-primary-darker);
+  --brand-primary-emphasis-hover: var(--color-brand-primary-darker);
+  --brand-primary-emphasis-active: var(--color-brand-primary-darker);
+  --brand-primary-strong: var(--color-brand-primary-darker);
+
+  /* Brand Secondary Dark */
+  --brand-secondary-subtle: var(--color-brand-secondary-dark);
+  --brand-secondary-subtle-hover: var(--color-brand-secondary-dark-hover);
+  --brand-secondary-subtle-active: var(--color-brand-secondary-dark-active);
+  --brand-secondary-default: var(--color-brand-secondary-default);
+  --brand-secondary-default-hover: var(--color-brand-secondary-default-hover);
+  --brand-secondary-default-active: var(--color-brand-secondary-default-active);
+  --brand-secondary-emphasis: var(--color-brand-secondary-darker);
+  --brand-secondary-emphasis-hover: var(--color-brand-secondary-darker);
+  --brand-secondary-emphasis-active: var(--color-brand-secondary-darker);
+  --brand-secondary-strong: var(--color-brand-secondary-darker);
+
+  /* Status Success Dark */
+  --status-success-subtle: var(--color-status-success-dark);
+  --status-success-subtle-hover: var(--color-status-success-dark-hover);
+  --status-success-subtle-active: var(--color-status-success-dark-active);
+  --status-success-default: var(--color-status-success-default);
+  --status-success-default-hover: var(--color-status-success-default-hover);
+  --status-success-default-active: var(--color-status-success-default-active);
+  --status-success-emphasis: var(--color-status-success-darker);
+  --status-success-emphasis-hover: var(--color-status-success-darker);
+  --status-success-emphasis-active: var(--color-status-success-darker);
+  --status-success-strong: var(--color-status-success-darker);
+
+  /* Status Pending Dark */
+  --status-pending-subtle: var(--color-status-pending-dark);
+  --status-pending-subtle-hover: var(--color-status-pending-dark-hover);
+  --status-pending-subtle-active: var(--color-status-pending-dark-active);
+  --status-pending-default: var(--color-status-pending-default);
+  --status-pending-default-hover: var(--color-status-pending-default-hover);
+  --status-pending-default-active: var(--color-status-pending-default-active);
+  --status-pending-emphasis: var(--color-status-pending-darker);
+  --status-pending-emphasis-hover: var(--color-status-pending-darker);
+  --status-pending-emphasis-active: var(--color-status-pending-darker);
+  --status-pending-strong: var(--color-status-pending-darker);
+
+  /* Status Warning Dark */
+  --status-warning-subtle: var(--color-status-warning-dark);
+  --status-warning-subtle-hover: var(--color-status-warning-dark-hover);
+  --status-warning-subtle-active: var(--color-status-warning-dark-active);
+  --status-warning-default: var(--color-status-warning-default);
+  --status-warning-default-hover: var(--color-status-warning-default-hover);
+  --status-warning-default-active: var(--color-status-warning-default-active);
+  --status-warning-emphasis: var(--color-status-warning-darker);
+  --status-warning-emphasis-hover: var(--color-status-warning-darker);
+  --status-warning-emphasis-active: var(--color-status-warning-darker);
+  --status-warning-strong: var(--color-status-warning-darker);
+
+  /* Status Error Dark */
+  --status-error-subtle: var(--color-status-error-dark);
+  --status-error-subtle-hover: var(--color-status-error-dark-hover);
+  --status-error-subtle-active: var(--color-status-error-dark-active);
+  --status-error-default: var(--color-status-error-default);
+  --status-error-default-hover: var(--color-status-error-default-hover);
+  --status-error-default-active: var(--color-status-error-default-active);
+  --status-error-emphasis: var(--color-status-error-darker);
+  --status-error-emphasis-hover: var(--color-status-error-darker);
+  --status-error-emphasis-active: var(--color-status-error-darker);
+  --status-error-strong: var(--color-status-error-darker);
+
+  /* Neutrals Dark */
+  --background: var(--color-neutrals-dark-background);
+  --surface: var(--color-neutrals-dark-surface);
+  --border: var(--color-neutrals-dark-borders);
+  --divider: var(--color-neutrals-dark-dividers);
+  --hover: var(--color-neutrals-dark-hover);
+  --text-primary: var(--color-neutrals-dark-white);
+  --text-secondary: var(--color-neutrals-dark-textgray);
+}
